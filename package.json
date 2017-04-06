@@ -1,0 +1,34 @@
+{
+  "name": "fabric-node-svr",
+  "version": "1.0.0",
+  "description": "service use fabric-sdk-node",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "express": "^4.15.2",
+    "multer": "^1.3.0",
+    "fabric-ca-client": "file:./fabric-sdk-node/fabric-ca-client",
+    "fabric-client": "file:./fabric-sdk-node/fabric-client",
+    "tap-colorize": "^1.2.0",
+    "tape": "^4.5.1",
+    "tape-promise": "^1.1.0"
+  },
+  "devDependencies": {
+    "body-parser": "^1.17.1",
+    "cookie-parser": "^1.4.3",
+    "multer": "^1.3.0",
+    "fabric-ca-client": "file:./fabric-sdk-node/fabric-ca-client",
+    "fabric-client": "file:./fabric-sdk-node/fabric-client",
+    "tap-colorize": "^1.2.0",
+    "tape": "^4.5.1",
+    "express": "^4.15.2",
+    "tape-promise": "^1.1.0"
+  },
+  "scripts": {
+    "test": "test",
+    "dev": "node ./bcsvr/start.js"
+  },
+  "author": "",
+  "license": "ISC"
+}

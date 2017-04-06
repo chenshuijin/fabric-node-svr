@@ -1,0 +1,8 @@
+function route(pathname) {
+	switch (pathname) {
+		case '/':
+		console.log("route path is /");
+	}
+}
+
+exports.route = route;
